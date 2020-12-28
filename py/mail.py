@@ -3,8 +3,8 @@ import smtplib
 
 #email_address = os.environ.get("email_user")
 #email_password = os.environ.get("email_pass")
-email_address = "info@solucionesepsilon.com"
-email_password = "EPSILONsrm2017"
+email_address = "xx"
+email_password = "xx"
 
 with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
     smtp.ehlo()
@@ -18,4 +18,4 @@ with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
 
     msg = f"Subject: {subject}\n\n{body}"
 
-    smtp.sendmail(email_address, "leojrpaniagua@gmail.com", msg)
+    smtp.sendmail(email_address, "xx", msg)
