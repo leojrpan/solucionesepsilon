@@ -1,0 +1,556 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.introduccion {
+  background-image: radial-gradient(#17415a, #0b4c66);
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.columna-izquierda {
+  color: white;
+  text-align: justify;
+  padding: 20px;
+  line-height: 2;
+
+}
+
+.columna-derecha {
+  color: white;
+  text-align: justify;
+  padding: 20px;
+  line-height: 2;
+}
+
+.parrafo {
+  padding: 25px;
+  line-height: 2;
+}
+
+.columna-derecha {
+  text-align: center;
+}
+
+.imagen-redonda {
+  border-radius: 100%;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.titulo {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.servicios {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.filas-servicios {
+  text-align: center;
+}
+
+.button {
+  text-transform: uppercase;
+  font-weight: 700px;
+  border-radius: 10px;
+  background-color: teal;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.iconos {
+  padding-top: 15px;
+}
+
+.imagen-intro {
+  border-radius: 100%;
+  margin-top: 25px;
+}
+
+.zoom {
+  transition: transform .6s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.col-servicios {
+  text-align: center;
+  padding: 25px;
+  line-height: 2;
+}
+
+.col-servicios h3 {
+  font-size: 23px;
+  font-weight: 700;
+  padding: 20px 0px;
+}
+
+.servicios-titulo {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 30px 0 10px 0;
+}
+
+.circle-border {
+  background-color:#0b4c66;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  margin: 0 0 35px 0;
+}
+
+.clientes {
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c7cdd1;
+  padding: 5px;
+}
+
+.margen-superior {
+  margin-top: 40px;
+}
+
+.footer {
+  background-image: radial-gradient(#17415a, #0b4c66);
+  text-align: center;
+  color: white;
+  padding: 20px;
+  line-height: 2;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.resaltado {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.imagen-redonda-2 {
+  border-radius: 100%;
+  padding: 30px;
+}
+
+.columna-izquierda-2 {
+  color: white;
+  text-align: justify;
+  padding: 20px;
+  margin-top: 20px;
+  line-height: 2;
+}
+
+.subtitulos-filosofia {
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.fondo-mision {
+  background-image: url("../images/fondo-mision.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.titulo-mision {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin: 50px 0; 
+}
+
+.texto-mision {
+  color: white;
+  text-align: justify;
+  margin: 50px 0;
+  line-height: 2;
+}
+
+.texto-valores {
+  text-align: justify;
+  margin: 20px 20px;
+  line-height: 2;
+}
+
+.margen-inferior {
+  margin-bottom: 30px;
+}
+
+.subtitulos-valores {
+  margin: 30px 0;
+  font-weight: 700;
+}
+
+.borde-valores {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #0b4c66;
+  border-radius: 15px;
+  margin-bottom: 75px;
+}
+
+.titulo-servicios {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.fondo-servicios {
+  background-color: #0b4c66;
+  padding: 30px;
+}
+
+.servicios-seccion {
+  margin: 75px 0 90px 0;
+}
+
+.imagenes-servicios {
+  margin: 20px 0;
+}
+
+.servicios-individuales h4{
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+.servicios-individuales p {
+  line-height: 1.8;
+}
+
+.titulo-programacion {
+  text-align: center;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.imagenes-diseno {
+  margin-bottom: 30px;
+}
+
+.web-seccion {
+  margin: 50px 0;
+}
+
+.texto-diseno {
+  text-align: justify;
+  text-align: 1.5;
+}
+
+.imagenes-mantenimiento {
+  margin: 30px 0;
+}
+
+.button-web {
+  text-transform: uppercase;
+  font-weight: 700px;
+  border-radius: 10px;
+  background-color: teal;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.button-web:hover {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.texto-mant {
+  line-height: 1.8;
+}
+
+
+.contacto-titulo {
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 30px 0 10px 0;
+  margin: 20px 0;
+}
+
+.imagen-contacto {
+padding: 20px 0;
+}
+
+label {
+  font-weight: 700;
+}
+
+input {
+  width: 100%;
+  padding: 4px 5px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 4px 5px;
+}
+
+.formulario {
+  margin-top: 40px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 992px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  nav {
+    display: none;
+  }
+
+  .iconos {
+    display: none;
+  }
+
+  .imagen-redonda-2 {
+    width: 250px;
+  }
+
+}
+
+
+@media (min-width: 992px) {
+  .mobile-icon{
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+}
+
+.mobile-icon {
+  position: fixed;
+  right: 25px;
+  background: #17415a;
+  padding: 14px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.mobile-menu {
+  position: fixed;
+  height: 100%;
+  top: 100px;
+  right: 0;
+  width: 225px;
+  background-color: #17415a;
+  overflow: auto;
+  z-index: 1;
+}
+
+.mobile-menu ul li {
+  list-style: none;
+  line-height: 3;
+  text-align: left;
+}
+
+#seccion-filosofia {
+  margin: 0;
+}
+
+.cabecera-principal {
+  width: 100%;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(240, 239, 239);
+  border: solid;
+  border-width: 0 0 1px 0;
+  border-color: rgb(218, 221, 221);
+  z-index: 1;
+}
+
+
+/* ---------------------CABECERA------------------------------- */
+
+
+.menu {
+  text-align: center;
+}
+
+.menu a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #17415a;
+  padding: 0 10px;
+  font-size: 16px;
+  transition: ease 0.4s;
+}
+
+.menu a:hover {
+  color:teal;
+}
+
+.cabecera {
+  padding: 10px 0;
+  background-color:  rgb(240, 239, 239);
+  border: rgb(167, 167, 167);
+  border-style: solid;
+  border-width: 0 0 1px 0;
+}
+
+.logo {
+  padding-left: 20px;
+}
+
+.facebook {
+  margin-right: 10px;
+}
+
+.instagram {
+  margin-right: 10px;
+}
+
+
+@media (min-width:1106px) {
+  .icono-movil {
+    display: none;
+  }
+
+  .menu-responsivo {
+    display: none;
+  }
+}
+
+@media (max-width:1106px) {
+  .menu {
+    display: none;
+  }
+
+  .iconos-rrss {
+    display: none !important;
+  }
+}
+
+.icono-movil {
+    font-size: 35px;
+}
+
+.icono-movil i {
+  position: fixed;
+  top: 35px;
+  right: 20px;
+  color: #17415a;
+}
+
+header nav section {
+  position: fixed;
+  right: -100%;
+  top: 102px;
+  width: 275px;
+  height: 100%;
+  overflow: hidden;
+  background-color: #17415a;
+  transition: 0.5s;
+}
+
+header nav section.active {
+  right: 0;
+  width: 275px;
+}
+
+header nav section a{
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+header nav section h4 {
+  color: white;
+  padding: 25px 0;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+.cabecera-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.carousel-control-next {
+  z-index: 0;
+}
+
+.carousel-control-prev {
+  z-index: 0;
+}
+
+.carousel-indicators {
+  z-index: 0;
+}
+
+#status {
+  text-align: center;
+  padding-top: 25px;
+  font-weight: 700;
+}
